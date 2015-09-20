@@ -1,0 +1,23 @@
+{
+  "name": "blahblah",
+  "version": "0.1.0",
+  "description": "Dead-simple pubsub",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/.bin/_mocha && jshint index.js && istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100"
+  },
+  "keywords": [
+    "pubsub"
+  ],
+  "author": "Jonas Weber <mail@jonasw.de> (http://jonasw.de/)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.20",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.2",
+    "mocha-jshint": "^2.2.3"
+  },
+  "repository": "thriqon/blahblah",
+  "homepage": "https://github.com/thriqon/blahblah"
+}
