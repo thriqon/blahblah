@@ -36,13 +36,11 @@ function tell(channel, evt) {
 	allHandlers.forEach(function (h) { h.apply(null, args); });
 }
 function listenToOnce(channel, evt, handler) {
-	/* jshint validthis: true*/
-	var self = this;
 	function executeAndUnlisten() {
 		handler.apply(null, arguments);
-		self.unlistenTo(evt, executeAndUnlisten);
+		unlistenTo(channel, evt, handler);
 	}
-	self.listenTo(evt, executeAndUnlisten);
+	this.listenTo(evt, executeAndUnlisten);
 }
 function unlistenTo(channel, evt, handler) {
 	var arr = getEventsArray(channel, evt);
