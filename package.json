@@ -13,9 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.2.0",
-    "istanbul": "^0.3.20",
+    "istanbul": "^0.4.5",
     "jshint": "^2.8.0",
-    "mocha": "^2.3.2",
+    "mocha": "^3.1.2",
     "mocha-jshint": "^2.2.3"
   },
   "repository": "thriqon/blahblah",
