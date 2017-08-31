@@ -12,7 +12,7 @@
   "author": "Jonas Weber <mail@jonasw.de> (http://jonasw.de/)",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^3.2.0",
+    "chai": "^4.1.2",
     "istanbul": "^0.4.5",
     "jshint": "^2.8.0",
     "mocha": "^3.1.2",
